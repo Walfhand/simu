@@ -18,6 +18,18 @@ services:
     command: redis-server --save 20 1 --loglevel warning
     volumes:
       - redis-data:/data
+  frontend:
+    build:
+      context: ./src/Simu.Frontend
+      dockerfile: Dockerfile
+    image: simu-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - FRONTEND_PUBLIC_API_URL=http://api:8080/api
+    volumes:
+      - ./src/Simu.Frontend:/app
+      - /node_modules
 
 
 volumes:
