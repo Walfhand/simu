@@ -4,9 +4,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A8B33E77-7FE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{5D329AD6-CF03-4266-8F39-53A4A9F0E84C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simu.Api", "src\Simu.Api\Simu.Api.csproj", "{DB5E0AB3-8CF4-4DA1-8A88-F96D8C650171}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DB5E0AB3-8CF4-4DA1-8A88-F96D8C650171} = {A8B33E77-7FE9-4171-86E0-D7BEDE2B2ADB}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB5E0AB3-8CF4-4DA1-8A88-F96D8C650171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB5E0AB3-8CF4-4DA1-8A88-F96D8C650171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB5E0AB3-8CF4-4DA1-8A88-F96D8C650171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB5E0AB3-8CF4-4DA1-8A88-F96D8C650171}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
