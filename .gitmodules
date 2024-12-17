@@ -1,0 +1,6 @@
+[submodule "simu.api"]
+	path = src/Simu.Api
+	url = https://github.com/Walfhand/simu.api.git
+[submodule "simu.frontend"]
+	path = src/Simu.Frontend
+	url = https://github.com/Walfhand/simu.frontend.git
